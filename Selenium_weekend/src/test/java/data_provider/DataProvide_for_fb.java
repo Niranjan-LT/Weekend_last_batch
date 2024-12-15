@@ -41,7 +41,7 @@ public class DataProvide_for_fb
 		wait.until(ExpectedConditions.titleContains("Log in to Facebook"));
 		Assert.assertEquals(driver.getTitle(), "Log in to Facebook","test failed");
 		driver.quit();
-		// hi
+		// bye
 		
 		
 	}
