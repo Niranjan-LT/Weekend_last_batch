@@ -2,10 +2,8 @@ package sample;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.interactions.Actions;
-import org.testng.Assert;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
@@ -39,9 +37,10 @@ public class Demo
 			System.out.println(Thread.currentThread()+": current thread Id");
 			driver.quit();
 		}
-		WebDriver driver;
+		WebDriver driver=null;
 		Actions a=new Actions(driver);
-		a.dr
+		
+		
 		
 		
 	}

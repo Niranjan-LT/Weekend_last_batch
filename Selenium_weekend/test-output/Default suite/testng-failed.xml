@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="data_provider.DataProvide_for_fb">
+      <class name="util.RunnerClass">
         <methods>
-          <include name="test_fb"/>
+          <include name="test1"/>
         </methods>
-      </class> <!-- data_provider.DataProvide_for_fb -->
+      </class> <!-- util.RunnerClass -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

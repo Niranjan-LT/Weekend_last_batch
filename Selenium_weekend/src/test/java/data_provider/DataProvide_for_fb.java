@@ -17,6 +17,7 @@ public class DataProvide_for_fb
 	@DataProvider(name="authentication")
 	public Object[][] data()
 	{
+
 		return new Object[][]
 				{
 					{"admin","admin123"},
@@ -24,8 +25,8 @@ public class DataProvide_for_fb
 					{"api","apache"}
 				};		
 	}
-	
-	@Test (dataProvider = "authentication")
+
+	@Test (dataProvider = "authentication2")
 	void test_fb(String un,String pwd)
 	{
 		WebDriver driver = WebDriverManager.chromedriver().create();

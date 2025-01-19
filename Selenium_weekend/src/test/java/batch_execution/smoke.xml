@@ -2,7 +2,7 @@
 <suite name="Suite">
 <groups>
 	<run>
-		<include name="sanity"/>
+		<exclude name="sanity"/>
 	</run>
 </groups>
   <test name="Test">

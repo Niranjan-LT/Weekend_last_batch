@@ -15,7 +15,7 @@ public class Group_Class
 	{
 		System.out.println("System Scenario 2");
 	}
-	@Test(groups = {"Sanity"})
+	@Test(groups = {"sanity",})
 	void test3()
 	{
 		System.out.println("sanity Scenario 3");
